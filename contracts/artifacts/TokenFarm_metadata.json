@@ -1,0 +1,233 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract StellartToken",
+						"name": "_stellartToken",
+						"type": "address"
+					},
+					{
+						"internalType": "contract JamToken",
+						"name": "_jamToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasStaked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isStaking",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "issueToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "jamToken",
+				"outputs": [
+					{
+						"internalType": "contract JamToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stakers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "stakingBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stellartToken",
+				"outputs": [
+					{
+						"internalType": "contract StellartToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unstakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenFarm.sol": "TokenFarm"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/JamToken.sol": {
+			"keccak256": "0xabb82e2fae7d0e7cdcd67341f0197b92f1f5afb097d037415d239fc8c84f392c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://106d053634f2c68c57c8c7aede158b50a4291a876a21f52085391ee6192fa49d",
+				"dweb:/ipfs/QmT5mUQzushFMfML6ahtWKHmaPSGviDH9iSZBTjgZfGXki"
+			]
+		},
+		"contracts/StellartToken.sol": {
+			"keccak256": "0x6a1c79a642be43410bd2bbad66b9dc836fc36d9d35fd79a987de4406a6d5acff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3406a2800d040d35a0fcbbe960cc127acf190dd3df6b3a2bafc9fe7144abb20c",
+				"dweb:/ipfs/QmbirruJSxWwGtBpBkcPjPNuBLGjozw7VjLxiPnRAaai6m"
+			]
+		},
+		"contracts/TokenFarm.sol": {
+			"keccak256": "0xb3951102ebadc51cdd74028fd3df05b6be07498883be8047b138d9f53af0d73d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c564ca6a4a71d2ec49c29cd407344855262d1a636d6c865d9e66d3dac5b1cf91",
+				"dweb:/ipfs/QmexbW6VUNfjqnjsrGSLtbZpzDx24nuhmY6sVaVLXMjm99"
+			]
+		}
+	},
+	"version": 1
+}
