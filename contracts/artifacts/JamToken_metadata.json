@@ -261,11 +261,11 @@
 	},
 	"sources": {
 		"contracts/JamToken.sol": {
-			"keccak256": "0xf0ed396b74eb1504181207c2c9a97d3969ec50dba4b59d85daeba5864f9c9afc",
+			"keccak256": "0xabb82e2fae7d0e7cdcd67341f0197b92f1f5afb097d037415d239fc8c84f392c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://382ba68c43fdb9d2dcca062c85ea74857803b0643af8f3ebe850a63a9ee35bfc",
-				"dweb:/ipfs/QmYBBekQALeh3jJKZK448VPRfZu9ofuFYq4PWgN7nUfTaT"
+				"bzz-raw://106d053634f2c68c57c8c7aede158b50a4291a876a21f52085391ee6192fa49d",
+				"dweb:/ipfs/QmT5mUQzushFMfML6ahtWKHmaPSGviDH9iSZBTjgZfGXki"
 			]
 		}
 	},

@@ -246,7 +246,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/StellarToken.sol": "StellartToken"
+			"contracts/StellartToken.sol": "StellartToken"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -260,7 +260,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StellarToken.sol": {
+		"contracts/StellartToken.sol": {
 			"keccak256": "0x6a1c79a642be43410bd2bbad66b9dc836fc36d9d35fd79a987de4406a6d5acff",
 			"license": "MIT",
 			"urls": [
